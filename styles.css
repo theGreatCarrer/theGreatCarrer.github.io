@@ -1,6 +1,4 @@
-h1.hide {
+.hide {
     display: none;
-}
-div.hide {
-    display: none;
+    color: red;
 }
