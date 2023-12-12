@@ -2,3 +2,7 @@
     display: none;
     color: red;
 }
+.unhide {
+    display: block;
+    color: black;
+}
