@@ -1,3 +1,6 @@
-#hide {
+h1.hide {
+    display: none;
+}
+div.hide {
     display: none;
 }
