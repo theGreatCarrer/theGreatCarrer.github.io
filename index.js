@@ -7,7 +7,7 @@ const secret3 = document.getElementById("secret3");
 const login = document.getElementById("login");
 
 
-loginButton.addEventListener("click", (e) => {
+/*loginButton.addEventListener("click", (e) => {
     e.preventDefault();
     const username = user.value;
     const password = passwordVal.value;
@@ -24,4 +24,4 @@ loginButton.addEventListener("click", (e) => {
         login.classList.add("hide")
     }
 }
-)
+)*/
