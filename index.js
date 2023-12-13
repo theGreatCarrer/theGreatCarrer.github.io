@@ -1,10 +1,9 @@
 const user = document.getElementsByName("uname");
-const loginButton = document.getElementById("buttonLogin");
 const passwordVal = document.getElementsByName("psw");
 const secret1 = document.getElementById("secret1");
 const secret2 = document.getElementById("secret2");
 const secret3 = document.getElementById("secret3");
-const login = document.getElementById("loginform");
+const lg = document.getElementById("loginform");
 
 
 /*loginButton.addEventListener("click", (e) => {
