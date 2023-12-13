@@ -26,7 +26,7 @@
   <br>
   <div id="loginform" class="unhide">
     <h1>Login</h1>
-    <form name="Login">
+    <form name="LoginF">
         <label for="uname"><b>Usuario</b></label>
         <input type="user" placeholder="adivina" name="uname" required>
 
@@ -40,8 +40,8 @@
 </div>
 <script language="JavaScript"> 
   function login(){ 
-  var usuario=document.login.uname.value; 
-  var password=document.login.psw.value; 
+  var usuario=document.LoginF.uname.value; 
+  var password=document.LoginF.psw.value; 
   if (usuario=="habibi" && password=="esternocleidomastoideo") { 
         secret1.classList.remove("hide")
         secret2.classList.remove("hide")
