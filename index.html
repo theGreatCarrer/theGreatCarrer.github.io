@@ -26,7 +26,7 @@
   <br>
   <div id="login" class="unhide">
     <h1>Login</h1>
-    <form>
+    <form name="Login">
         <label for="uname"><b>Usuario</b></label>
         <input type="user" placeholder="adivina" name="uname" required>
 
@@ -35,23 +35,25 @@
         <input type="password" placeholder="rghrfacpyrvqczñghcvqrc"  name="psw" required>
 
         <script src="./index.js"></script>
-        <button id="buttonLogin" onclick="
-        const user = document.getElementsByName('uname');
-        const passwordVal = document.getElementsByName('psw');
-        if (user.value == 'habibi' && passwordVal.value == 'esternocleidomastoideo') { 
-        secret1.classList.remove('hide')
-        secret2.classList.remove('hide')
-        secret3.classList.remove('hide')
-        secret1.classList.add('unhide')
-        secret2.classList.add('unhide')
-        secret3.classList.add('unhide')
-        login.classList.remove('unhide')
-        login.classList.add('hide')
-        }"
-        >Login</button>
+        <button id="buttonLogin" onclick="login()">Login</button>
     </form>
 </div>
-
+<script language="JavaScript"> 
+  function login(){ 
+  var usuario=document.login.uname.value; 
+  var password=document.login.psw.value; 
+  if (usuario=="habibi" && password=="esternocleidomastoideo") { 
+        secret1.classList.remove("hide")
+        secret2.classList.remove("hide")
+        secret3.classList.remove("hide")
+        secret1.classList.add("unhide")
+        secret2.classList.add("unhide")
+        secret3.classList.add("unhide")
+        login.classList.remove("unhide")
+        login.classList.add("hide")  
+      } 
+  } 
+</script> 
   <!--b8fb5647a92b7a9e-->
   <br>
   <br>
