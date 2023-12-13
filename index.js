@@ -6,7 +6,7 @@ const secret2 = document.getElementById("secret2");
 const secret3 = document.getElementById("secret3");
 const login = document.getElementById("login");
 
-loginButton.addEventListener("click", (e) => {
+await loginButton.addEventListener("click", (e) => {
     e.preventDefault();
     const username = user.value;
     const password = passwordVal.value;
