@@ -34,7 +34,6 @@
         <label for="psw"><b>Contraseña</b></label>
         <input type="password" placeholder="rghrfacpyrvqczñghcvqrc"  name="psw" required>
 
-        <script src="./index.js"></script>
         <button id="buttonLogin" onclick="Entrar()" type="button">Login</button>
     </form>
 </div>
@@ -43,14 +42,14 @@
   var usuario=document.LoginF.uname.value; 
   var password=document.LoginF.psw.value; 
   if (usuario=="habibi" && password=="esternocleidomastoideo") { 
-        secret1.classList.remove("hide")
-        secret2.classList.remove("hide")
-        secret3.classList.remove("hide")
-        secret1.classList.add("unhide")
-        secret2.classList.add("unhide")
-        secret3.classList.add("unhide")
-        lg.classList.remove("unhide")
-        lg.classList.add("hide")  
+    document.getElementById("secret1").classList.remove("hide");
+    document.getElementById("secret2").classList.remove("hide");
+    document.getElementById("secret3").classList.remove("hide");
+    document.getElementById("loginform").classList.remove("unhide");
+    document.getElementById("secret1").classList.add("unhide");
+    document.getElementById("secret2").classList.add("unhide");
+    document.getElementById("secret3").classList.add("unhide");
+    document.getElementById("loginform").classList.add("hide");
       } 
   } 
 </script> 
